@@ -30,7 +30,7 @@ public class Main {
         }
         line = line + sign + "\n";               // nowa linia
 // następne linie
-        for (int j = 0; j < size - 2; j++) {
+        for (int j = 1; j < size - 1; j++) {
             line = line + sign;
 
             for (int k = 1; k < size - 1; k++) {
@@ -96,7 +96,7 @@ public class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
-              System.out.println(main.drawLineWithSpaces('#', 7));
+        System.out.println(main.drawLineWithSpaces('#', 7));
         System.out.println(main.drawSquareWithSpaces('#', 7));
         System.out.println(main.drawSquareWithSpacesAndDiagonals('#', 7));
     }
