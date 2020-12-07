@@ -96,8 +96,8 @@ public class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
-        //      System.out.println(main.drawLineWithSpaces('#', 5));
-        //System.out.println(main.drawSquareWithSpaces('#', 10));
-        System.out.println(main.drawSquareWithSpacesAndDiagonals('#',10));
+              System.out.println(main.drawLineWithSpaces('#', 7));
+        System.out.println(main.drawSquareWithSpaces('#', 7));
+        System.out.println(main.drawSquareWithSpacesAndDiagonals('#', 7));
     }
 }
